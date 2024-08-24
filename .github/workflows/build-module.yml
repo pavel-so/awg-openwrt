@@ -12,10 +12,15 @@ jobs:
     strategy:
       matrix:
         build_env:
-          - tag: "18.06"
+          - tag: "18.06 mipsel_mips32"
             pkgarch: mips_siflower
             target: adm8668
             subtarget: generic
+            vermagic: "70b4fffdfc0fafbf0f0ab09be2a54a8f"
+          - tag: "18.06 mipsel_mips32r2"
+            pkgarch: mips_siflower
+            target: ramips
+            subtarget: rt288x
             vermagic: "70b4fffdfc0fafbf0f0ab09be2a54a8f"
 
 
