@@ -17,7 +17,7 @@ jobs:
           #   target: adm8668
           #   subtarget: generic
           #   vermagic: "70b4fffdfc0fafbf0f0ab09be2a54a8f"
-          - tag: "18.06"
+          - tag: "18.06.9"
             pkgarch: mips_siflower
             target: ramips
             subtarget: rt288x
