@@ -18,7 +18,7 @@ jobs:
           #   subtarget: generic
           #   vermagic: "70b4fffdfc0fafbf0f0ab09be2a54a8f"
           - tag: "18.06.9"
-            pkgarch: mips_siflower
+            pkgarch: mipsel_mips32r2
             target: ramips
             subtarget: rt288x
             vermagic: "70b4fffdfc0fafbf0f0ab09be2a54a8f"
